@@ -1,0 +1,80 @@
+body {
+  background: #e6e6e6;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.times-new-roman {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-elements {
+  font-family: "Roboto", sans-serif;
+}
+
+.skill-head {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.skill-desc {
+  font-family: "Roboto", sans-serif;
+}
+
+.paras {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr auto);
+}
+
+.home-line {
+  width: 100px;
+  /* height: 100px; */
+  /* height: 20px; */
+  border-style: dashed;
+  /* background: red; */
+}
+
+.eng-line {
+  width: 100px;
+  /* background: red; */
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.articles {
+  transform: scale(1);
+  transition: all 0.4s;
+}
+
+.articles:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.map-container {
+  height: 700px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 800px) {
+  .paras {
+    display: block;
+  }
+}
